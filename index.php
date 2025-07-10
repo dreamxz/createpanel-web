@@ -1,8 +1,8 @@
 <?php
 session_start();
 
-$username = 'zdmarga1122'; // ganti sesuai user lu
-$password = 'kontol123';   // ganti sesuai pw lu
+$username = 'admin'; // ganti sesuai user lu
+$password = '1';   // ganti sesuai pw lu
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $user = $_POST['username'];
